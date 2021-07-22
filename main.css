@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 1440px;
+    background-color: #071939;
+    border-bottom: 1px solid lightgray;
+    padding: 8px 0;
+}
+
+.container {
+    width: 1280px;
+    margin: auto;
+}
+
+.container-left {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    float: left;
+    margin-right: 5px;
+}
+
+.logo img {
+    display: block;
+}
+
+.menu {
+    float: left;
+}
+
+.menu-item {
+    float: left;
+    padding: 8px 10px;
+    display: inline;
+}
+
+.menu-item a {
+    color: white;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.menu-item img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
