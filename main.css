@@ -5,22 +5,27 @@ body {
 
 .header {
     width: 1440px;
+    height: 56px;
     background-color: #071939;
-    border-bottom: 1px solid lightgray;
     padding: 8px 0;
 }
 
 .container {
     width: 1280px;
     margin: auto;
+    display: flex;
 }
 
 .container-left {
+    width: 650px;
+    display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 .logo {
+    width: 56px;
+    height: 35px;
     float: left;
     margin-right: 5px;
 }
@@ -56,3 +61,61 @@ body {
     display: block;
     clear: both;
 }
+
+.container-right {
+    width: 420px;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 0;
+    /* position: absolute; */
+}
+
+.container-right .container-right-items {
+    display: flex;
+    /* transform: translate(200%, -20%); */
+}
+
+.container-right .container-right-items .search-box {
+    margin-right: 10px;
+    display: flex;
+}
+
+.container-right .container-right-items .search-box input {
+    width: 240px;
+    height: 33px;
+    color : white;
+    background: #2A3142;
+    border-radius: 6px;
+    border: 1px solid #454D56;
+}
+
+.container-right .container-right-items .search-box input:focus {
+    background: white;
+    color: black;
+
+}
+
+.container-right .container-right-items .search-box input img {
+    margin-right: 8px;
+    display: inline-block;
+}
+.container-right .container-right-items .sign-btn {
+    display: flex;
+    align-items: center;
+}
+.container-right .container-right-items .sign-btn a {
+    text-decoration: none;
+    font-weight: 550;
+    color: white;
+    margin-right: 16px;
+}
+.container-right .container-right-items .sign-btn .BtnSignUp {
+    border: 1px solid #D1D5D9;
+    border-radius: 3px;
+    padding: 4px 7px;
+}
+
+
+
