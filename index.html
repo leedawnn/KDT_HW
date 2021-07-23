@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Github</title>
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./reset.css">
 </head>
 <body>
     <div class="header">
@@ -50,9 +51,17 @@
                     </div>
                 </div>
             </div>
-            <div class="container-right">
-                <div class="input-box"></div>
-                <div class="sign-button"></div>
+            <div class="container-right clearfix">
+                <div class="container-right-items clearfix">
+                    <div class="search-box">
+                        <input type="text" id="searchBox" name="searchBox" onfocus="this.value=''" value="Search GitHub">
+                        <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="slash">
+                    </div>
+                    <div class="sign-btn">
+                        <a href="#a">Sign in</a>
+                        <a href="#a" class="BtnSignUp">Sign up</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
