@@ -34,23 +34,23 @@ header {
     display: block;
 }
 
-.menu {
+ul {
     float: left;
 }
 
-.menu-item {
+li {
     float: left;
     padding: 8px 10px;
     display: inline;
 }
 
-.menu-item a {
+li a {
     color: white;
     font-weight: 550;
     text-decoration: none;
 }
 
-.menu-item img {
+li img {
     width: 16px;
     height: 16px;
     vertical-align: middle;
@@ -116,6 +116,3 @@ header {
     border-radius: 3px;
     padding: 4px 7px;
 }
-
-
-
