@@ -136,7 +136,7 @@ main .timeline .item .image img {
     padding: 8px;
     border-radius: 2px;
 }
-main .links {
+main nav {
     position: absolute;
     top: 97px;
     width: 260px;
