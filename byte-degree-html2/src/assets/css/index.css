@@ -146,11 +146,6 @@ main nav {
     border-radius: 2px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-}
-
 footer .container {
     width: 800px;
     margin: 0 auto;
@@ -168,4 +163,9 @@ footer .container .contact ul li {
 }
 footer .container .contact a {
     color: #ccc;
+}
+
+.footer-info{
+    background-color: #333;
+    color: #fff;
 }
