@@ -26,7 +26,7 @@ header .container {
     margin: 0 auto;
     display: flex;
     justifymain: space-between;
-    align-items: center;
+    alignarticles: center;
 }
 
 header .container .logo-title {
@@ -39,12 +39,12 @@ header .container .menu {
     padding: 0;
 }
 
-header .container .menu .menu-item {
+header .container .menu .menuarticle {
     display: inline;
     margin-left: 16px;
 }
 
-header .container .menu .menu-item a {
+header .container .menu .menuarticle a {
     color: inherit;
     text-decoration: none;
 }
@@ -105,33 +105,33 @@ main .write .container .buttons button {
     border-radius: 2px;
 }
 
-main .timeline .item {
+main .timeline article {
     background-color: #fff;
     padding: 16px;
     border-radius: 2px;
 }
 
-main .timeline .item:not(:last-child) {
+main .timeline article:not(:last-child) {
     margin-bottom: 16px;
 }
 
-main .timeline .item .meta {
+main .timeline article .meta {
     text-align: right;
     color: #333;
     font-size: 14px;
 }
 
-main .timeline .item .separator {
+main .timeline article .separator {
     margin: 8px 0 24px 0;
     border: none;
     background-color: #ccc;
     height: 1px;
 }
 
-main .timeline .item .image {
+main .timeline article .image {
     text-align: center;
 }
-main .timeline .item .image img {
+main .timeline article .image img {
     border: solid 1px #ccc;
     padding: 8px;
     border-radius: 2px;
