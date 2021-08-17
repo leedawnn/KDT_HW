@@ -25,8 +25,8 @@ header .container {
     padding: 16px 24px;
     margin: 0 auto;
     display: flex;
-    justifymain: space-between;
-    alignarticles: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header .container .logo-title {
@@ -165,7 +165,7 @@ footer .container .contact a {
     color: #ccc;
 }
 
-.footer-info{
+.footer-info {
     background-color: #333;
     color: #fff;
 }
